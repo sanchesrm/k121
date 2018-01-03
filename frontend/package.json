@@ -1,11 +1,10 @@
 {
-  "name": "angular-scripts",
-  "version": "1.2.3",
-  "description": "Simple AngularJS Boilerplate to kick start your new project with SASS support and Gulp watch/build tasks",
-  "author": "Semianchuk Vitalii",
-  "license": "MIT",
+  "version": "1.0.0",
+  "description": "K121 Frontend Remoto Teste",
+  "author": "Rodrigo Martins Sanches",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "protractor tests/config.js"
   },
   "dependencies": {
     "angular": "^1.6.8",
@@ -25,6 +24,7 @@
     "gulp-sass": "^2.3.2",
     "gulp-uglify": "^2.1.2",
     "path": "*",
-    "path-exists": "*"
+    "path-exists": "*",
+    "protractor": "^5.2.2"
   }
 }

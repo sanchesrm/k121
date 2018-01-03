@@ -1,15 +1,6 @@
 {
-  "name": "backend",
-  "version": "0.0.1",
-  "private": true,
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js",
-    "test": "NODE_ENV=test mocha --recursive test",
-    "test:coverage": "nyc npm test",
-    "test:unit": "mocha --recursive test/middleware test/models test/routes",
-    "test:integration": "mocha --recursive test/integration"
-  },
+  "name": "K121 backend",
+  "version": "1.0.0",
   "dependencies": {
     "body-parser": "^1.13.3",
     "compression": "^1.5.2",
