@@ -41,7 +41,19 @@ angular.module('angularApp')
 		}
 
 		$scope.getNomeAmigo = (id_amigo) => {
-			return $scope.participantesList[id_amigo].nome;
+			if (id_amigo) {
+				return $scope.participantesList[id_amigo].nome;
+			} else {
+				return '';
+			}
+		}
+
+		$scope.checkIfSortear = () => {
+			if ($scope.participantesList && Object.keys($scope.participantesList).length > 1) {
+				return false;
+			} else {
+				return true;
+			}
 		}
 
 		loadAllParticipantes = () => {

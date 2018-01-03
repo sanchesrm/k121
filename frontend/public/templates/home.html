@@ -7,7 +7,7 @@
 				Listagem de amigos para serem sorteados
             </h1>
 
-			<button type="button" class="btn btn-success sortearButton pull-right" ng-click="sortear()">Sortear</button>
+			<button type="button" class="btn btn-success sortearButton pull-right" ng-click="sortear()" data-ng-disabled="checkIfSortear()">Sortear</button>
 		</div>
 
 		<div class="alert alert-warning" role="alert" ng-show="sorteando">Aguarde um momento, vamos sortear o amigo secreto</div>
