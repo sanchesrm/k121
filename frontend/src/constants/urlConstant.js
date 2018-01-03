@@ -1,0 +1,1 @@
+angular.module('angularApp').constant('rest_url', 'http://localhost:3000/api');
